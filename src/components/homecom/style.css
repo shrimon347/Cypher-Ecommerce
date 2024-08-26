@@ -1,0 +1,82 @@
+.swiper-button-prev {
+  position: relative;
+  top: 11.5px;
+  left: -50px;
+}
+.swiper-button-prev::after {
+    font-size: 25px;
+    color: black;
+}
+.swiper-button-next::after {
+    font-size: 25px;
+    color: black;
+  }
+
+  /* tabs.css */
+
+/* Remove default list styles */
+.react-tabs__tab-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border-bottom: none;
+}
+
+/* Remove default tab styles */
+.react-tabs__tab {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  outline: none;
+}
+
+/* Remove default selected tab styles */
+.react-tabs__tab--selected {
+  border: none;
+  background: none;
+  font-weight: bold; /* Optional: Add your desired style for selected tab */
+}
+
+/* Optional: Add custom focus style */
+.react-tabs__tab:focus {
+  outline: none;
+}
+.react-tabs__tab-list {
+    display: flex;
+  gap: 30px;
+  padding: 0px 0px 40px 0px;
+  margin: 0;
+}
+.react-tabs__tab--selected {
+  color: #1f2937;
+  font-weight: bold;
+  border-bottom:2px solid black ;  /* Ensure no default border */
+}
+
+@media (min-width: 768px) {
+    .swiper-pagination {
+      display: none !important;
+    }
+  }
+  
+  /* Show pagination on small screens */
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+  }
+  /* swiper-custom.css */
+
+/* Custom pagination bullets */
+.swiper-pagination-bullet {
+    background: black !important;
+  }
+  
+  /* Active bullet */
+  .swiper-pagination-bullet-active {
+    background: black !important;
+  }
+  
